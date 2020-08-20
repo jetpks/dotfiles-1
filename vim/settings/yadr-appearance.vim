@@ -27,10 +27,5 @@ else
   end
 endif
 
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-let g:solarized_bold=0
-let g:solarized_underline=1
-let g:solarized_italic=0
-colorscheme solarized
-set background=dark
+" colorscheme molokai
+" set background=dark
