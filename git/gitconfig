@@ -128,3 +128,16 @@
 
 [include]
   path = .gitconfig.user
+[user]
+	name = Eric Jacobs
+	email = ejacobs@doximity.com
+	signingkey = 4EA5DF3C2A13E937BB49809F12B6C81AC4EC82E5
+[pull]
+	rebase = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[commit]
+	gpgsign = true
